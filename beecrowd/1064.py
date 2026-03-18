@@ -11,3 +11,4 @@ for _ in range(6):
 print(f"{positivos} valores positivos")
 if positivos > 0:
     print(f"{soma/positivos:.1f}")
+#arrumar para o 1065, que é o próximo exercício, e tem a mesma estrutura, mas pede os pares, não os positivos.
