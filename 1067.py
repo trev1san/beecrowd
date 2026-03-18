@@ -1,7 +1,9 @@
 x = int(input())
-n = 1
+quantidade_de_impares = 0
 
-while n <= x:
-    if n % 2 != 0:
-        print(n)
-    n += 1
+while quantidade_de_impares < 6:
+    if x % 2 != 0:
+        print(x)
+        quantidade_de_impares += 1
+    
+    x += 1
